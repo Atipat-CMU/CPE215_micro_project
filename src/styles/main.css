@@ -1,0 +1,44 @@
+.container {
+  background-color: #fcfcfc;
+  padding: 0px 5%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 36px 0px;
+}
+
+.content {
+  padding: 0px 15%;
+  background-color: white;
+}
+
+.detail {
+  padding: 24px 10%;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.chart-container {
+  position: relative;
+  height: 40vh;
+  width: 80vw;
+}
+
+.experiment-container {
+  background-color: #eee;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  padding: 100px 0px;
+  align-items: center;
+  justify-content: center;
+}
